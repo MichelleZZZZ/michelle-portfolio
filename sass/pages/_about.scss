@@ -1,0 +1,191 @@
+$font-family: 'Quicksand', sans-serif;
+$nav-text-color: #6C6C6C;
+$theme-color: #00C9A9;
+$light-grey-color: #F8F8F8;
+$text-color: #5C5C5C;
+$header-text-color: #1D1C1C;
+
+.about-me-page{
+
+	background-color: $light-grey-color;
+	transition: all 1s;
+
+	@include breakpoint('wide'){
+
+		width: calc(100% - 250px);
+		margin-left: 250px;
+		overflow: hidden;
+	}
+
+	// headers
+
+	.headers{	
+
+		display: inline-block;
+		margin-bottom: 2rem;
+
+		.bottom-line{
+			width: 55%;
+			height: 1px;
+			background-color: $theme-color;
+		}
+	
+	}
+
+	// education
+
+	.myself{
+				
+		overflow: auto;
+
+		.about-me{
+			
+			padding: 0 40px;
+			margin: 100px auto 0 auto;
+
+			@include breakpoint('wide'){
+				max-width: 1000px;
+				margin: calc(5rem + 100px) auto 2rem auto;
+				
+			}
+
+			.myself-container{
+				max-width: 240px;
+				margin: 0 auto 2rem auto;
+				
+
+				@include breakpoint('medium'){			
+					width: 90%;
+					display: inline-block;
+					margin: 0 auto ;
+					
+				}
+
+				.myself-img{
+					width: 100%;
+					border-radius: 100%;
+					margin-bottom: 2rem;
+
+				}	
+
+				.social-icons{
+					width: 100%;
+					text-align: center;
+					
+					a{
+						text-decoration: none;
+
+						img{
+							width: 27px;
+							margin: 9px;
+						}
+					}
+					
+				}	
+
+			}
+
+			.about-texts{
+				width: 100%;
+
+				@include breakpoint('medium'){
+					width: percentage(320/600);
+					margin-left: 30px;
+					float: right;
+
+				}
+
+				.education{
+
+					.edu-details{
+						margin-bottom: 1rem;
+
+						.school-container{
+
+							display: inline-block;
+							float: left;
+							width: 80%;
+
+						}
+
+					}
+
+				}
+				
+			}	
+			
+		}
+
+		.skills{
+			clear: both;
+			background-color: #fff;
+			padding: 40px;
+			margin-bottom: 3rem;
+
+			.skill-container{
+				width: 100%;
+				height: 100%;
+
+				@include breakpoint('medium'){	
+					max-width: 1000px;
+					margin: 0 auto;
+					padding-bottom: 30px;
+
+				}
+
+				.skill-icons{
+					margin: 0 auto;
+					overflow: hidden;
+
+					.icons{
+						width: 49%;
+						margin:  0;
+						text-align: left;
+						display: inline-block;
+						float: left;
+
+						@include breakpoint('medium'){	
+							margin: 0 auto;	
+							width: 24%;
+							padding: 10px 0;
+
+						}
+
+						.icons-container{
+							display: inline-block;
+
+							img{		
+								width: 30px;
+								right: 8px;
+								display: inline-block;
+
+							}
+
+							.icon-lines{
+								height: 33px;
+								width: 2px;
+								background-color: $theme-color;
+								display: inline-block;
+							}
+					
+
+							.icon-texts{
+								display: inline-block;
+								width: 50%;
+								margin-left: 6px;
+								vertical-align: top;
+
+							}
+
+						}
+						
+					}
+				}
+
+			}
+
+		}	
+
+	}
+
+}

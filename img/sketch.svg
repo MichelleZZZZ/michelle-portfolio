@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="1047 80 45 40">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-sketch);
+      }
+    </style>
+    <clipPath id="clip-sketch">
+      <rect x="1047" y="80" width="45" height="40"/>
+    </clipPath>
+  </defs>
+  <g id="sketch" class="cls-1">
+    <image id="Computer" width="32" height="32" transform="translate(1054 80)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABmJLR0QA/wD/AP+gvaeTAAAC6ElEQVR4nO3dsU9TQQDH8d/dda1GZFNG5jqTxk4oq5oQ/wTAsHSS/4AFnYhN/AvQP0A0GFMG4shKGA1MxaR1bK/nUEroC3A9X+37Jf19tobLy4Vvru9d29caAECzsegsthGwDKAMmaY/MPjiXahjaf3MoNlYdAY/AcwVPbMZ1/Kl8MQ6i20oBoN51zM79vJpSjislJA5Z/ina6agycwkd9gI1x7et4XNRG6kIGQUhExprFHap+Qxss+IDY6vkOE+JeAlFONflBGw6nrmGEcfHsUGR4NonzIx865ndmKD4itE+5RJWokNGOccon1KDtl9Rmy8rrLIKAgZBSGjIGQUhIyCkFEQMgpCRkHIKAgZBSGjIGQUhIyCkFEQMgpCRkHIKAgZBSGjIGQUhIyCkFEQMgpCRkHIKAgZBSGjIGQUhIyCkFEQMgpCRkHIKAgZBSGjIGQUhIyCkFEQMgpCRkHIKAgZBSGjIGQUhMw43wbUAXBv+CDz7TaSph0bEF8hBvsTmYoAiP8vo0G8C3UArYlMZ7a1vO3WY4PiK2Rp/czbbgXAHgZPX5KmA2DP224F1c3z2ODxvpW0unnugdd5ZyZxusoioyBkFISMgpBREDIKQkZByCgIGQUhY9xh4wL69QMWFxbA16JnIVe+WcDo1w5oGGOB8KzoachQWC4hc/7Q74NMV+Yd2Ie6yiKjIGQUhIyCkFEQMuO9py53a+4uOFN6f7WFCDjwrr+F6sZJ6qG0QvJq7i44446B8AqDnxgsw+CF69sj/Pj4OPVwySuE/ZOL095HXa6Mm14LnHPOv/PAasrxtEJyu/OVjuepR1OQ/yv52URB8vt++5/MQerBks8heq1rlLf9t65vawAeZP7024ewlXo8rZC8qhsnPvgKgM8YfI63A4NP3rsKamunqYfTPmQSam9+pV5N3UYrhIyCkFEQMgpCRkHIGHfYaOPaXbZSqLbVXbZU9q3usqXR8rZbt7rLtnAjd+n+BcXBoRCku/afAAAAAElFTkSuQmCC"/>
+  </g>
+</svg>

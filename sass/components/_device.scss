@@ -1,0 +1,242 @@
+.device-container{
+		
+		margin:  -80px auto 3rem auto;
+		max-width: 1300px;
+		padding: 0 5%;
+		position: relative;
+		width: 90%;
+		
+		@include breakpoint('medium'){
+
+			margin-top: -80px;
+		}
+
+		@include breakpoint('wide'){
+
+			margin-top: -100px;
+		}
+
+
+		.devices{
+
+			padding-bottom: 46%;
+			position: relative;
+			max-width: 87.5%;
+			margin: 0 auto;
+
+			.model{
+
+				height: 100%;
+				left: 0;
+				position: absolute;
+				top: 0;
+				width: 100%;
+			}
+
+			.device-animation{
+
+				transition: all 1s;
+				transition: background-position 0.5s ease-out;
+
+			}
+
+			.desktop{
+
+				.desktop-bg{
+
+					
+					background-size: cover;
+					background-position: 0 100%;
+					height: 85%;
+					left: 11%;
+					top: 5%;
+					width: 70%;
+					position: absolute;
+				}
+				#hopestreet-desktop-bg{
+					
+					background-image: url(../img/hope_street/hope-screenshot-tablet.jpg);
+					
+
+				}
+
+				#penguin-desktop-bg{
+					
+					background-image: url(../img/penguin/penguin-screen-desktop-tablet.jpg);
+					
+
+				}
+
+				#tea-desktop-bg{
+					
+					background-image: url(../img/tea/tea-screen-desktop.jpg);
+
+				}
+
+				// #architect-desktop-bg{
+					
+				// 	background-image: url(../img/architect/architect-screen-desktop-tablet.jpg);
+
+				// }
+
+				.device{
+					
+					background-image: url(../img/desktop.png);
+					background-size: cover;
+					height: 100%;
+					left: 0;
+					position: absolute;
+					top: 0;
+					width: 100%;
+				}
+			}
+
+			.tablet{
+
+				.tablet-bg{
+
+					background-size: cover;
+					height: 83%;
+					left: 59%;
+					top: 12%;
+					width: 32%;
+					position: absolute;
+				}
+
+				#hopestreet-tablet-bg{	
+					background-image: url(../img/hope_street/hope-screenshot-tablet.jpg);	
+
+				}
+
+				#penguin-tablet-bg{
+
+					background-image: url(../img/penguin/penguin-screen-desktop-tablet.jpg);
+				}
+			
+				#tea-tablet-bg{
+					
+					background-image: url(../img/tea/tea-screen-tablet.jpg);
+
+				}
+
+				// #architect-tablet-bg{
+					
+				// 	background-image: url(../img/architect/architect-screen-desktop-tablet.jpg);
+
+				// }
+
+				.device{
+					
+					background-image: url(../img/tablet.png);
+					background-size: cover;
+					height: 100%;
+					left: 0;
+					position: absolute;
+					top: 0;
+					width: 100%;
+				}
+			}
+
+			.phone{
+
+				.phone-bg{
+
+					background-size: cover;
+					height: 49%;
+					left: 83.7%;
+					top: 43.8%;
+					width: 14%;
+					position: absolute;
+				}
+
+				#hopestreet-phone-bg{	
+					background-image: url(../img/hope_street/hopestreet-bg-medium.jpg);	
+
+				}
+
+				#penguin-phone-bg{
+					
+					background-image: url(../img/penguin/penguin-screen-desktop-tablet.jpg);
+				}
+
+				#tea-phone-bg{
+					
+					background-image: url(../img/tea/tea-screen-phone.jpg);
+
+				}
+
+				// #architect-phone-bg{
+					
+				// 	background-image: url(../img/architect/architect-screen-phone.jpg);
+
+				// }
+
+				.device{
+					
+					background-image: url(../img/iphone.png);
+					background-size: cover;
+					height: 100%;
+					left: 0;
+					position: absolute;
+					top: 0;
+					width: 100%;
+				}
+			}
+
+		
+			// @include breakpoint('medium'){
+
+			// 	max-width: percentage(800/960);
+			// 	margin: 0 auto;
+			// }
+
+
+			// img{
+
+			// 	width: 100%
+			// }
+
+			// .devices{
+
+			// 	position: absolute;
+			// 	top: 0;
+			// 	left: 0;
+			// 	bottom: 0;
+			// 	width: 100%;
+			// 	max-width: percentage(800/960);
+			// 	height: auto;
+			// 	// overflow: hidden;
+			// }
+
+			// #desktop{
+
+			// 	position: relative;
+
+			// 	.desktop-bg{
+
+			// 		background: url(../img/penguin/penguin-bg.png);
+			// 		background-position: top;
+			// 		width: 80%;
+			// 		height: 60%;
+			// 		position: absolute;
+			// 	}
+
+			// 	.desktop-device{
+					
+			// 		background: url(../img/desktop.png);
+			// 		background-position: center;
+
+			// 		left: 0;
+			// 		top: 0;
+			// 		height: 100%;
+			// 		position: absolute;
+			// 	}
+
+				
+
+
+			// }
+
+
+		}
+	}

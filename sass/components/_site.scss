@@ -1,0 +1,50 @@
+body{
+  background: linear-gradient(to right, #2E2C2C, #1D1C1C);
+}
+
+.wrapper{
+
+  overflow: hidden;
+}
+
+
+#home-main{
+
+  // background-color: #3C3C3C;
+}
+
+.header-line{
+
+  width: 70px;
+  border-bottom: 2px solid $color-theme-green;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+*:focus{
+  
+  outline: none;
+};
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}

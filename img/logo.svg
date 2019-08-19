@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="453 546 68 80">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-logo);
+      }
+
+      .cls-2 {
+        fill: #5f5f5f;
+        stroke: rgba(0,0,0,0);
+        stroke-width: 1px;
+      }
+    </style>
+    <clipPath id="clip-logo">
+      <rect x="453" y="546" width="68" height="80"/>
+    </clipPath>
+  </defs>
+  <g id="logo" class="cls-1">
+    <g id="Group_2" data-name="Group 2" transform="translate(399.954 -317.748)">
+      <path id="Path_1" data-name="Path 1" class="cls-2" d="M9.046-72.252h7.363l16.6,32.791h.341L49.677-72.252H56.9v42.744H49.677V-64.514h-.239L31.918-29.508H30.452L12.727-64.276h-.511v34.768H9.046Zm58.56,0H74.8v42.744H67.606Z" transform="translate(44 936)"/>
+      <path id="Path_2" data-name="Path 2" class="cls-2" d="M19.048-39.934,32.937-61.4H27.442l-10.633,17.3L5.921-61.4H.172l14.042,21.47v14.856h4.833Zm46.96,1.73V-61.4H61.174v23.2q0,4.884-2.417,7.4t-7.047,2.518q-4.884,0-7.479-2.518t-2.595-7.4V-61.4H36.8v23.2q0,7.276,3.943,10.608t10.964,3.332q6.868,0,10.583-3.485T66.008-38.2Z" transform="translate(54.631 967.011)"/>
+    </g>
+  </g>
+</svg>

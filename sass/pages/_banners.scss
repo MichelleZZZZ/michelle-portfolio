@@ -1,0 +1,116 @@
+
+.project{
+	#banners-header-container{
+		background-color: pink;
+		height: 450px;
+		position: relative;
+
+		.banner-header{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			
+			h1{
+				font-size: 3em;
+				text-align: center;
+				color: #fff;
+			}
+		
+		}
+	}
+}
+
+
+.banner{
+	position: relative;
+
+	.banner-logo{
+
+		width: auto;
+		margin: 20px auto;
+		margin-left: 20px;
+		display: inline-block;
+		position: relative;
+		left: 50%;
+		transform: translate(-50%);
+
+		@include breakpoint('wide'){
+			margin: 3em auto;
+		}
+
+		.img-logo{
+			float: left;
+			width: 100px;
+			display: block;
+		}
+
+		.banner-texts{
+			float: left;
+			clear: default;
+			padding: 20px;
+			
+			@include breakpoint('medium'){
+				padding: 0 40px;
+				max-width: 80%;
+			}
+
+			@include breakpoint('wide'){
+				max-width: 450px;
+			}
+
+			.display-header{
+				display: inline-block;
+
+				.bottom-line{
+					width: 55%;
+					height: 1px;
+					background-color: $theme-color;
+				}
+			}
+
+			h3{
+				font-family: $font-family;
+				color: $text-color;
+				text-transform: uppercase;
+				letter-spacing: 4px;
+				margin: 0;
+
+			}
+
+			.project-info-p{
+				margin-top: 30px;
+				margin-left: 0;
+
+				a{
+					color: $text-color;
+				}
+			}
+
+			p{
+				color: $text-color;
+				font-family: 'Roboto', sans-serif;
+				font-weight: 300;
+				font-size: 16px;
+				line-height: 1.8em;
+
+				@include breakpoint('medium'){
+					font-size: 18px;
+				}
+
+				@include breakpoint('wide'){
+
+					font-size: 20px;
+				}
+
+			}
+		}
+	}
+
+	.banner-display{
+		height: 600px;
+		width: 100%;
+		background-color: #fff;
+
+	}
+}

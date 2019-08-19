@@ -1,0 +1,435 @@
+
+// Project texts
+.header-texts{
+
+	h1{
+		font-size: 2rem;
+		width: 100%;
+		font-family: $font-family;
+		color: $header-text-color;
+		letter-spacing: 4px;
+		font-size: 1.6rem;
+
+		@include breakpoint('medium'){
+			font-size: 3rem;
+		}
+	}
+
+	a{
+
+		&:hover{
+
+			h3{
+				opacity: 0.5;
+	
+			}
+        		
+    	}
+		
+		h3{
+			color: $text-color;
+			font-family: $font-family;
+			transition: all 0.5s ease;
+			display: inline-block;
+			letter-spacing: 4px;
+			font-size: 0.8rem;
+			margin: 0;
+
+			@include breakpoint('medium'){
+				font-size: 1.4rem;
+			}
+		}		
+
+	}
+
+}
+
+// About me page texts
+.about-me-page{
+
+	// headers
+
+	.headers{	
+
+		h3{
+			color: $header-text-color;
+			font-family:  $font-family;
+			text-transform: uppercase;
+			letter-spacing: 4px;
+		}
+	
+	}
+
+	// education
+
+	.myself{
+				
+		.about-me{
+
+			.about-texts{
+
+				.title-p{
+					color: $text-color;
+					font-family:  $font-family;
+					text-transform: uppercase;
+					letter-spacing: 4px;
+				}
+
+				.sayhi{
+
+					p{
+						color: $text-color;
+						font-family:  $font-family;
+						font-size: 18px;
+						line-height: 1.8em;
+
+						@include breakpoint('wide'){
+
+							font-size: 20px;
+							margin-left: 30px;
+						}
+					}
+
+					h1{
+						color: $theme-color;
+						font-family:  $font-family;
+						text-transform: uppercase;
+						letter-spacing: 4px;
+					}
+				}
+
+				.education{
+
+					.edu-details{
+
+						.number{
+
+							color: $text-color;
+							font-family:  $font-family;
+							font-size: 16px;
+							float: left;
+							margin-right: 20px;
+							display: inline-block;
+							margin-top: 2px;
+						}
+
+						.school-container{
+
+							h3{
+								color: $header-text-color;
+								font-family: $font-family;
+								text-transform: uppercase;
+								margin-top: 0;
+							}
+
+							p{
+								color: $text-color;
+								font-family: $font-family;
+							}
+
+						}
+
+					}
+
+				}
+				
+			}	
+			
+		}
+
+		.skills{
+
+			.skill-container{
+
+				.skill-icons{
+					.icons{
+
+						.icons-container{
+
+							.icon-texts{
+								display: inline-block;
+								width: 50%;
+								margin-left: 6px;
+								vertical-align: top;
+
+								h4{
+									color: $header-text-color;
+									font-family: $font-family;
+									margin: 0;
+									text-align: left;
+									text-transform: uppercase;
+									display: inline-block;
+								}
+
+								p{
+									text-align: left;
+									color: $text-color;
+									font-family: $font-family;
+									font-size: 0.8em;
+									margin-top: 7px;
+									letter-spacing: 1px;
+
+								}
+							}
+						}
+					}
+				}
+			}
+		}	
+	}
+}
+
+.project-info{
+
+	.about-header{
+
+		h3{
+			font-family: $font-family;
+			color: $text-color;
+			text-transform: uppercase;
+			letter-spacing: 4px;
+
+		}
+	}
+
+	p{
+		color: $text-color;
+		font-family:  $font-family;
+		font-size: 18px;
+		line-height: 1.8em;
+		margin: 30px auto 0 0 ;
+
+		@include breakpoint('wide'){
+
+			font-size: 20px;
+			margin: 30px auto 0 90px;
+		}
+
+	}
+
+}
+
+.display-texts, .banner-texts{
+
+	h3{
+		font-family: $font-family;
+		color: $text-color;
+		text-transform: uppercase;
+		letter-spacing: 4px;
+
+	}
+
+	.project-info-p{
+		margin: 30px auto 0 0 ;
+
+		@include breakpoint('wide'){
+			margin: 30px auto 0 40px;
+		}
+		a{
+			color: $text-color;
+		}
+	}
+
+	p{
+		color: $text-color;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 1.8em;
+
+		@include breakpoint('medium'){
+			font-size: 18px;
+		}
+
+		@include breakpoint('wide'){
+
+			font-size: 20px;
+		}
+
+	}
+}
+
+.pages-display{
+
+	h3{
+		font-family: $font-family;
+		color: $text-color;
+		text-transform: uppercase;
+		letter-spacing: 4px;
+
+	}
+
+	p{
+		color: $text-color;
+		font-family: $text-font;
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 1.8em;
+
+		@include breakpoint('medium'){
+			font-size: 18px;
+		}
+
+		@include breakpoint('wide'){
+			font-size: 20px;
+
+		}
+
+	}
+
+	.p-header{
+		font-weight: 400;
+		margin: 30px auto 0 0 ;
+
+	}
+
+	.images-display{
+
+		.to-projects{
+
+			.container-bg{
+
+				.project-thumb-bg{
+
+					.project-name{
+
+						h1{
+							
+							color: #D0D0D0;
+							cursor: pointer;
+							transition: all .3s;
+
+						}
+					}
+
+				}
+			}
+		}
+
+	}
+
+}
+
+//Sketch texts
+.sketch-container{
+		
+	h1{
+		
+		color: $theme-color;
+		font-family: $font-family;
+		text-transform: uppercase;
+
+	}
+
+	.sketch-text-left{
+
+
+		h1{
+			text-align: center;
+
+
+			@include breakpoint('wide'){
+
+				text-align: left;
+				margin: 100px 0 0 0;
+
+
+			}
+		}
+
+	}
+
+
+	.sketch-text-right{
+
+
+		h1{
+			text-align: center;
+
+			@include breakpoint('wide'){
+
+				text-align: right;
+				margin: 0;
+
+
+			}
+		}
+
+	}
+
+}
+
+.sketch-images{
+	
+	.sketch-images-container{
+
+		.sketch-header{
+
+			h3{
+				font-family: $font-family;
+				color: $text-color;
+				text-transform: uppercase;
+				letter-spacing: 4px;
+
+			}
+		}
+
+		.sketch-pics{
+
+			figure{
+
+				figcaption{
+
+					p{
+						color: $text-color;
+						font-family:  $font-family;
+						font-weight: 300;
+						font-size: 1.2em;
+						line-height: 1.8em;
+						text-align: center;
+
+						@include breakpoint('medium'){
+
+							font-size: 24px;
+						}
+					}	
+				}
+			}
+
+		}
+
+	}
+	
+}
+
+//To other projects
+.other-projects{
+
+	.other-projects-container{
+
+		.to-project{
+
+			.texts{
+				width: 40%;
+				display: inline-block;
+				margin: 50px  10px 10px 20px;
+
+				h3{
+					font-family: $font-family;
+					color: $text-color;
+					letter-spacing: 4px;
+
+				}
+
+				p{
+					font-family: $font-family;
+					color: $text-color;
+
+				}
+
+			}
+
+		}
+	}
+}
+

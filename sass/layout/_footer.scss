@@ -1,0 +1,39 @@
+$font-family: 'Quicksand', sans-serif;
+$light-grey-color: #F8F8F8;
+
+
+footer{
+	
+	width: 100%;
+
+	@include breakpoint('wide'){
+
+		width: calc(100% - 250px);
+		margin-left: 250px;
+	}
+
+	.wrapper{
+
+		background-color: #3C3C3C;
+
+		img{
+			width: 60px;
+			margin: 40px auto 20px auto;
+			display: block;
+		}
+
+		p{
+
+			text-align: center;
+			color: $light-grey-color;
+			font-family: $font-family;
+			font-size: 12px;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+			margin: 0 15px 3rem 15px;
+
+		}
+
+	}
+
+}

@@ -1,0 +1,19 @@
+
+#tea-header{
+	
+	background-image:url(../img/tea/bg-sm.jpg);
+	background-size: cover;
+	background-position: center;
+
+	@include breakpoint('medium'){
+		background-image:url(../img/tea/bg-md.jpg);		
+
+	}
+
+	@include breakpoint('wide'){
+		background-image:url(../img/tea/bg.jpg);
+		
+	}
+
+}
+

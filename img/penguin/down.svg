@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-62 184 31 70">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-down);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #2fcc71;
+        stroke-width: 1px;
+      }
+    </style>
+    <clipPath id="clip-down">
+      <rect x="-62" y="184" width="31" height="70"/>
+    </clipPath>
+  </defs>
+  <g id="down" class="cls-1">
+    <g id="group-3" transform="translate(-436 -317)">
+      <line id="line-4" class="cls-2" y2="68.11" transform="translate(389.766 501.5)"/>
+      <line id="line-5" class="cls-2" x2="14.833" y2="21.461" transform="translate(374.933 549.539)"/>
+      <line id="line-5-2" data-name="line-5" class="cls-2" x2="21.461" y2="14.833" transform="translate(404.598 549.539) rotate(90)"/>
+      <line id="line-6" class="cls-2" x2="29.665" transform="translate(374.933 549.539)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,391 @@
+// penguin page
+
+#penguin-project{
+
+}
+
+.project{
+
+	overflow: hidden;
+	background-color: $light-grey-color;
+	
+	@include breakpoint('wide'){
+		width: calc(100% - 250px);
+		margin-left: 250px;
+	}
+
+	#penguin-header{
+		background: linear-gradient(to right, #CCC695,#A0B0E3);
+		position: relative;
+
+		.penguin-bg{
+			position: absolute;
+			height: 100%;
+			width: 40%;
+			right: 0;
+			top: 100px;
+
+			img{
+				position: absolute;
+				width: 50px;
+
+				@include breakpoint('medium'){
+					width: 70px;
+
+				}
+
+			}
+
+			.penguin-1{
+				top: 20%;
+				right: 60%
+
+			}
+
+			.penguin-2{
+				top: 40%;
+				right: 20%
+			}
+
+			.penguin-3{
+				top: 50%;
+				right: 80%
+				
+			}
+		}
+	}
+
+	.project-header{
+		
+		height: 400px;
+	
+		@include breakpoint('medium'){		
+			height: 500px;
+
+		}
+
+		@include breakpoint('wide'){
+			height: 650px;
+		}		
+	}	
+
+	.project-container{
+
+		width: 100%;
+		height:100%;
+		position: relative;
+		overflow: hidden;
+
+		.mask{
+
+			position: absolute;
+			height: 900px;
+			width: 900px;
+			border-radius: 50%;
+			top: -300px;
+			left: -200px;
+			background: $theme-color;
+			opacity: .7;
+
+		}
+
+		#tea-mask{
+			opacity: .85;
+		}
+
+		.header-texts{
+			margin-top: 140px;
+			margin-left: 20vw;
+			position: absolute;
+
+			@include breakpoint('medium'){
+				margin-top: 120px;
+				margin-left: 180px;
+			}
+			@include breakpoint('wide'){
+				margin-top: 140px;
+			}
+
+
+			a{
+				cursor: pointer;
+				text-decoration: none;
+
+				&:hover{
+
+					img{
+						opacity: 0.5;
+					}
+		        		
+	        	}
+
+				img{
+					opacity: 1;
+					transition: all 0.5s ease;
+					width: 12px;
+					display: inline-block;
+					
+					@include breakpoint('wide'){
+						width: 14px;
+					}
+
+					@include breakpoint('wide'){
+						width: 20px;
+					}
+				}	
+
+			}
+
+		}
+
+	}
+		
+
+	// end devices
+
+	.project-info{
+		clear: both;
+		padding: 40px;
+		margin:  0 auto 100px auto;
+		max-width: 80%;
+
+		@include breakpoint('wide'){
+			max-width: 86%;
+			padding-left: 90px;
+		}
+
+		.about-header{
+			display: inline-block;
+
+			.bottom-line{
+				width: 55%;
+				height: 1px;
+				background-color: $theme-color;
+			}
+		}
+
+		.text-shortline{
+			width: 15%;
+			height: 1px;
+			background-color: $text-color;
+			margin: 30px auto 0 0 ;
+
+			@include breakpoint('wide'){
+				margin: 30px auto 0 90px;
+			}
+		}
+	}
+
+	// background color
+
+	#penguin-page-bg{
+		background-color: #16599B;
+	}
+
+	#architect-page-bg{
+		background-color: #91A3BA;
+	}
+
+	#tea-page-bg{
+		background-color: #EDE2D8;
+	}
+
+	.display-texts{
+		clear: both;
+		padding: 0 40px;
+		margin:  0 auto;
+		
+		@include breakpoint('medium'){
+			padding: 40px;
+			max-width: 80%;
+		}
+
+		@include breakpoint('wide'){
+			max-width: 700px;
+		}
+
+		.display-header{
+			display: inline-block;
+
+			.bottom-line{
+				width: 55%;
+				height: 1px;
+				background-color: $theme-color;
+			}
+		}
+
+		.text-shortline{
+			width: 15%;
+			height: 1px;
+			background-color: $text-color;
+			margin: 30px auto 0 0 ;
+
+			@include breakpoint('wide'){
+				margin: 30px auto 0 40px;
+			}
+		}
+	}
+
+	// Displays
+	.pages-display{
+		background-color: #fff;
+
+		.image-container{
+			padding: 100px 0 5rem 0;
+			max-width: 1000px; 
+			margin-bottom: 5rem;
+			
+			@include breakpoint('medium'){
+				margin: 0 auto 5rem auto;
+			}
+
+			img,video{
+				padding: 20px 0;		
+				margin: 0 auto ;
+				width: 100%;
+
+				@include breakpoint('medium'){
+					display: block;
+				}
+				
+			}
+
+			.webpages-display{
+				margin-bottom: 5rem;
+
+			}
+
+			.ui-display{
+				margin-bottom: 5rem;
+			}
+
+			.wireframes{
+				margin-top: 100px;
+				margin-bottom: 5rem;
+
+			}
+
+			.user-test{
+				margin-top: 100px;
+				margin-bottom: 5rem;
+				
+				video{
+					padding: 3rem 0;
+
+				}
+				.location-img{
+					max-width: 600px;
+				}
+			}
+		}
+
+	}
+
+	.other-projects{
+
+		max-width: 1000px; 
+		margin-bottom: 5rem;
+		
+		@include breakpoint('medium'){
+			margin: 0 auto 5rem auto;
+		}
+
+		.header{
+			font-family: $font-family;
+			color: $text-color;
+			text-transform: uppercase;
+			text-align: center;
+			letter-spacing: 4px;
+			margin-bottom: 3rem;
+		}
+
+		.other-projects-container{
+			padding: 0 40px;
+			margin: 0 auto;
+
+			@include breakpoint('medium'){
+				width: 80%;
+			}
+
+			.to-project{
+
+				width: 100%;
+				margin: 20px 0;
+				float: left;
+				border: 1px solid $to-project-border;
+				overflow: hidden;
+				position: relative;
+
+				@include breakpoint('medium'){
+					width: calc(50% - 40px);
+					margin: 0 20px;
+				}
+
+				&:hover{
+
+					.circle{
+						transform: translate(25%, -10%);
+
+						@include breakpoint('medium'){
+							transform: translate(10%, -10%);
+						}
+					}
+
+				}
+
+				.circle{
+					width: 600px;
+					height: 600px;
+					border-radius: 50%;
+					background-color: $theme-color;
+					transform: translate(150%);
+					transition: transform .3s,  cubic-bezier(.65,.05,.36,1);
+					position: absolute;
+					opacity: .2;
+
+					@include breakpoint('medium'){
+						width: 400px;
+						height: 400px;
+						transform: translate(100%);
+					}
+
+				}
+
+				.texts{
+					width: 40%;
+					display: inline-block;
+					margin: 50px  10px 10px 20px;
+
+					.bottom-line{
+						width: 55%;
+						height: 1px;
+						background-color: $theme-color;
+						margin-bottom: 50px;
+
+					}
+					.view-case-h4{
+						color: $text-color;
+						text-transform: uppercase;
+
+					}
+				}
+
+				.project-image{
+
+					width: 40%;
+					display: inline-block;
+					vertical-align: top;
+					margin-top: 50px;
+
+					img{
+						width: 100%;
+					}
+				}
+
+			}
+		}
+	}
+
+	
+
+}

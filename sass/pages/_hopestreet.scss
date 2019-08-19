@@ -1,0 +1,20 @@
+
+#hopestreet-header{
+	
+	background-image:url(../img/hope_street/hopestreet-bg-small.jpg);
+	background-size: cover;
+	background-position: center;
+
+	@include breakpoint('medium'){
+		background-image:url(../img/hope_street/hopestreet-bg-medium.jpg);	
+
+	}
+
+	@include breakpoint('wide'){
+		background-image:url(../img/hope_street/hopestreet-bg-wide.jpg);
+		
+	}
+
+}
+
+

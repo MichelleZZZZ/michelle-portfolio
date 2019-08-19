@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="453 505 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-favicon);
+      }
+
+      .cls-2 {
+        fill: #00c9a9;
+        stroke: rgba(0,201,169,0);
+        stroke-width: 1px;
+      }
+    </style>
+    <clipPath id="clip-favicon">
+      <rect x="453" y="505" width="32" height="32"/>
+    </clipPath>
+  </defs>
+  <g id="favicon" class="cls-1">
+    <g id="Group_1" data-name="Group 1" transform="translate(402.954 -357.748)">
+      <path id="Path" class="cls-2" d="M9.046-72.252h2.9l6.529,12.9H18.6l6.422-12.9h2.842V-55.44H25.026V-69.209h-.094L18.042-55.44h-.576L10.494-69.115h-.2V-55.44H9.046Zm23.032,0h2.829V-55.44H32.078Z" transform="translate(44 936)"/>
+      <path id="Path-2" data-name="Path" class="cls-2" d="M7.6-52.96,13.059-61.4H10.9L6.715-54.6,2.433-61.4H.172L5.695-52.96v5.843H7.6Zm18.47.68V-61.4h-1.9v9.125a4.049,4.049,0,0,1-.95,2.912,3.665,3.665,0,0,1-2.771.991,4.055,4.055,0,0,1-2.942-.991,3.877,3.877,0,0,1-1.021-2.912V-61.4h-1.9v9.125a5.17,5.17,0,0,0,1.551,4.172A6.481,6.481,0,0,0,20.443-46.8,5.854,5.854,0,0,0,24.6-48.167,5.377,5.377,0,0,0,26.066-52.279Z" transform="translate(53.565 941.616)"/>
+    </g>
+  </g>
+</svg>

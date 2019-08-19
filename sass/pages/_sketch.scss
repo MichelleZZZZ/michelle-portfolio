@@ -1,0 +1,211 @@
+
+.project-sketch-header{
+		
+	background: linear-gradient(to top,#292727,#26231F);
+	height: 100vh;
+	position: relative;
+
+	@include breakpoint('wide'){
+		
+		height: 90vh;
+
+	}
+
+	.sketch-container{
+		
+		position: absolute;	
+		height: 80%;
+		top: 55%;
+		left: 50%;
+		width: percentage(300/340);
+		transform: translate(-50%, -50%);
+
+		@include breakpoint('wide'){
+			
+			top: 50%;	
+			max-width: percentage(800/960);
+			margin: 0 auto;
+
+		}
+
+		.sketch-text-left{
+
+			width: 100%;
+
+		}
+
+		.sketch-home-image{
+
+			img{
+
+				width: 30%;
+				max-width: 200px;
+				display: block;
+				margin: 0 auto;
+				max-width: 160px;
+
+			}
+			
+		}
+
+		.sketch-text-right{
+
+			width: 100%;
+
+		}
+
+		.down-btn{
+			width: 100%;
+			margin-top: 20px;
+
+			img{
+				width: 20px;
+				display: block;
+				margin: 0 auto;
+			}
+			
+			
+		}
+
+	}
+
+}
+
+
+.sketch-images{
+
+	padding: 100px 20px 100px 10px;
+	background-color: #FFF2D9;
+	overflow: auto;
+	
+	.sketch-images-container{
+		max-width: 80%;
+		margin: 0 auto;
+
+		@include breakpoint('wide'){
+			max-width: 86%;
+		}
+		.sketch-header{
+			display: inline-block;
+			margin-left: 90px;
+
+			.bottom-line{
+				width: 55%;
+				height: 1px;
+				background-color: $theme-color;
+			}
+		}
+
+		.sketch-pics{
+
+			@include breakpoint('wide'){
+
+				max-width: percentage(800/960);
+				margin: 0 auto;
+			}
+
+			figure{
+				
+				margin: 0;
+				padding: 40px 0;
+				cursor: pointer;
+
+				@include breakpoint('medium'){
+
+					width: percentage(300/600);
+					float: left;
+					padding: 40px 20px;
+				}
+
+				img{
+
+					width: 100%;
+				}
+
+				figcaption{
+
+					width: 100%;
+				}
+			}
+
+		}
+
+	}	
+}
+
+.modal{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background-color: rgba(#222, .9);
+	z-index: 1000;
+	
+	@include breakpoint('wide'){
+
+		width: calc(100% - 250px);
+		margin-left: 250px;
+	}
+
+
+	.modal-container{
+		position: absolute;
+		width: 70%;
+		top: 50%;
+		left: 50%;
+		padding: percentage(10/960);
+		transform: translate(-50%, -50%);
+
+		img{
+			width: 100%;
+		}
+
+		%icon{
+			position: absolute;
+			top: 50%;
+			color: $theme-color;
+			font-size: 2em;
+			cursor: pointer;
+			transform: translate(0 -50%);
+
+			@include breakpoint('medium'){
+
+				font-size: 4em;
+			}
+		}
+
+		.next{
+			@extend %icon;
+			right: -20px;
+			&:before{
+				content: url("../img/right-btn.svg");
+				position: absolute;
+				width: 25px;
+			}
+		}
+
+		.prev{
+			@extend %icon;
+			left: -40px;
+			&:before{
+				content: url("../img/left-btn.svg");
+				position: absolute;
+				width: 25px;
+			}
+		}
+
+		.close{
+			@extend %icon;
+			top: -50px;
+			right: -50px;
+			transform: translate(0 0);
+		}
+
+	}
+
+}
+
+
+
+

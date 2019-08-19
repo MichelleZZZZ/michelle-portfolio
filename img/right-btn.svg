@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="1532.777 1624 69.175 117.798">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-right-btn);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #2ecc71;
+        stroke-width: 5px;
+      }
+    </style>
+    <clipPath id="clip-right-btn">
+      <rect x="1532.777" y="1624" width="69.175" height="117.798"/>
+    </clipPath>
+  </defs>
+  <g id="right-btn" class="cls-1">
+    <path id="path-44" class="cls-2" d="M1926.5,5398.356l63.692,58.546-63.692,53.569" transform="translate(-391.765 -3772.261)"/>
+  </g>
+</svg>

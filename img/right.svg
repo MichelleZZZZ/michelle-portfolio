@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="682 184 200 200">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-right);
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+        stroke: #fff;
+      }
+
+      .cls-2 {
+        stroke-width: 7px;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        stroke-width: 3px;
+      }
+    </style>
+    <clipPath id="clip-right">
+      <rect x="682" y="184" width="200" height="200"/>
+    </clipPath>
+  </defs>
+  <g id="right" class="cls-1">
+    <g id="group-4" transform="translate(-252 -99)">
+      <g id="group-3" transform="translate(938.046 339.643)">
+        <path id="path-4" class="cls-2" d="M933.823,318.149h117.242" transform="translate(-899.972 -274.358)"/>
+        <path id="path-5" class="cls-3" d="M981.848,303.3s-9.164-1.992-6.375,6.773c.8,0,36.258,36.259,36.258,36.259s8.554.565,11.1.565-.359-2.978-.359-2.978Z" transform="translate(-866.592 -303.11)"/>
+        <path id="path-5-2" data-name="path-5" class="cls-3" d="M981.8,346.427s-9.105,1.979-6.334-6.73c.792,0,36.025-36.025,36.025-36.025s10.645-1.451,11.956-.574-3.161,4.843-3.161,4.843Z" transform="translate(-866.432 -260.445)"/>
+      </g>
+      <path id="ellipse-3" class="cls-4" d="M99,3.5A95.5,95.5,0,1,1,3.5,99,95.5,95.5,0,0,1,99,3.5Z" transform="translate(935 284)"/>
+    </g>
+  </g>
+</svg>
