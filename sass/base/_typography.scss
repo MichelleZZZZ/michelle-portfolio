@@ -1,4 +1,9 @@
-
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 500;
+}
 // Project texts
 .header-texts{
 
@@ -21,11 +26,11 @@
 
 			h3{
 				opacity: 0.5;
-	
+
 			}
-        		
+
     	}
-		
+
 		h3{
 			color: $text-color;
 			font-family: $font-family;
@@ -38,7 +43,7 @@
 			@include breakpoint('medium'){
 				font-size: 1.4rem;
 			}
-		}		
+		}
 
 	}
 
@@ -49,7 +54,7 @@
 
 	// headers
 
-	.headers{	
+	.headers{
 
 		h3{
 			color: $header-text-color;
@@ -57,13 +62,13 @@
 			text-transform: uppercase;
 			letter-spacing: 4px;
 		}
-	
+
 	}
 
 	// education
 
 	.myself{
-				
+
 		.about-me{
 
 			.about-texts{
@@ -132,9 +137,9 @@
 					}
 
 				}
-				
-			}	
-			
+
+			}
+
 		}
 
 		.skills{
@@ -175,7 +180,7 @@
 					}
 				}
 			}
-		}	
+		}
 	}
 }
 
@@ -294,7 +299,7 @@
 					.project-name{
 
 						h1{
-							
+
 							color: #D0D0D0;
 							cursor: pointer;
 							transition: all .3s;
@@ -312,9 +317,9 @@
 
 //Sketch texts
 .sketch-container{
-		
+
 	h1{
-		
+
 		color: $theme-color;
 		font-family: $font-family;
 		text-transform: uppercase;
@@ -360,7 +365,7 @@
 }
 
 .sketch-images{
-	
+
 	.sketch-images-container{
 
 		.sketch-header{
@@ -392,14 +397,14 @@
 
 							font-size: 24px;
 						}
-					}	
+					}
 				}
 			}
 
 		}
 
 	}
-	
+
 }
 
 //To other projects
